@@ -1,0 +1,36 @@
+.mainbg {
+  background: url(http://www.villakheops.fr/templates/booking/images/page-header.jpg) no-repeat center 0;
+  .pt130 {
+    h1, h3 {
+      font-family: "Open Sans",sans-serif;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #1488BA;
+    }
+    padding-top: 171px;
+    .page-header {
+      background-color: #64BBDB;
+      color: #fff;
+      border: none;
+      margin: 0;
+      padding: 15px 0;
+      .breadcrumb {
+        background: transparent;
+      }
+      a {
+        color: #fff;
+      }
+      h1 {
+        margin: 0;
+        font-weight: 300;
+        color: var(--white);
+      }
+    }
+    .breadcrumb {
+      margin: 0;
+      .breadcrumb-item.active {
+        color: var(--white);
+      }
+    }
+  }
+}
